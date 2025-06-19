@@ -8,6 +8,14 @@
 body ,html{
   overflow-x: hidden;
 }
+body{
+    padding-top: 60px;
+}
+header .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .navbar{
     background-color: #131b25;
     height: 59.99px;
@@ -15,7 +23,10 @@ body ,html{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
+}
+.navbar-select{
+    text-decoration: none;
+    color: white;
 }
 /** box 1 **/
 .nav-logo{
@@ -89,9 +100,8 @@ body ,html{
     background-color: #febd68;
     font-size: 1.2rem;
     border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
-    color: #373838;
-    
+    border-top-right-radius: 4px; 
+    color: #373838; 
 }
 .border-2{
     border: 1.5px solid transparent;
@@ -119,9 +129,9 @@ input[type=text-1]:focus{
 }
 .nav-en {
     padding-top: 15px;
-    margin-left:4px;
     font-weight: 700;
     font-size: 0.9rem;
+    display:inline;
 }
 
 /** box 5 **/
@@ -215,8 +225,8 @@ span{
     height:250px;
     display: flex;
     justify-content:center;
-    
 }
+
 /** shop-section **/
 .shop-section{
     background-color: rgb(210, 175, 241);
